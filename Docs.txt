@@ -1,0 +1,20 @@
+Supports standard global objects. 
+
+
+Additional Global Objects:
+
+VirtualInput
+	- int CursorX
+	- int CursorY
+	- void LeftClick()
+	- void RightClick()
+	- void MiddleClick()
+	- void Sleep(int Duration)
+	- void SetCursorPosition(int X, int Y)
+
+System
+	- DateTime Time
+
+IO
+	- void Write(string s)
+	- void ImportScript(string Filename)
